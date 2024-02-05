@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(45deg, rgb(228, 31, 31), #8293bc);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+ 
+h1{
+    color: whitesmoke;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+p{
+    color: whitesmoke;
+}
+ 
+img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 360px;
+}
+#prev{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 280px;
+}
+#play{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 370px;
+}
+#next{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 440px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}
